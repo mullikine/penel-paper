@@ -1,6 +1,4 @@
 * Pen.el - Prompt Engineering in emacs
-** Prompt Engineering
-
 ** Available prompts
 - http://github.com/semiosis/prompts
 
@@ -13,3 +11,7 @@ $PROMPTS/autofix-code-2.prompt
 
 http://github.com/semiosis/prompts/blob/master/prompts/asktutor-3.prompt
 $PROMPTS/asktutor-3.prompt
+
+** Engineering prompts
+
+** Using prompts
