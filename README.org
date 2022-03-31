@@ -1,3 +1,9 @@
+* Introduction
+Hi my name is Shane. I've been working on my project Pen.el for the last year and a half.
+Anak has been helping me and I'd like to talking about the Pen.el project for you today.
+- theory
+- practical
+- future blockchain applications
 * Pen.el paper
 ** What are prompts?
 ** Pen.el project - Prompt engineering in emacs
