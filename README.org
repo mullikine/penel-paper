@@ -15,5 +15,9 @@ $PROMPTS/asktutor-3.prompt
 ** Engineering prompts
 
 ** Using prompts
+*** For coding
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (define-key pen-map (kbd "M-SPC e f") 'pf-get-an-example-of-the-usage-of-a-function/2)
+#+END_SRC
 
 ** Blockchain
