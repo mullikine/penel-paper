@@ -1,6 +1,9 @@
 * Introduction
-Hi my name is Shane. I've been working on my project Pen.el for the last year and a half.
-Anak has been helping me and I'd like to talking about the Pen.el project for you today.
+Hi good people of FAU. My name is Shane. I'm a software engineer in New Zealand.
+I've been working with Anak on my project
+Pen.el for the last year and a half and I'd
+like to talking about the Pen.el project for
+you today.
 - theory
 - practical
 - future blockchain applications
