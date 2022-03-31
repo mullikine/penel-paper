@@ -1,8 +1,10 @@
-* Pen.el - Prompt Engineering in emacs
-** Available prompts
+* Pen.el paper
+** What are prompts?
+** Pen.el project - Prompt engineering in emacs
+*** What is Pen.el?
+*** Built-in library of prompt functions 
 - http://github.com/semiosis/prompts
-
-** Describe some of these prompts
+library
 http://github.com/semiosis/prompts/blob/master/prompts/code-generator-from-description-1.prompt
 $PROMPTS/code-generator-from-description-1.prompt
 
@@ -12,19 +14,22 @@ $PROMPTS/autofix-code-2.prompt
 http://github.com/semiosis/prompts/blob/master/prompts/asktutor-3.prompt
 $PROMPTS/asktutor-3.prompt
 
-** Engineering prompts
+*** How to build your own prompt functions
 
-** Using prompts
-*** For coding
-**** How to use
+*** Using prompts
+**** For coding assistance
+***** How to use
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (define-key pen-map (kbd "M-SPC e f") 'pf-get-an-example-of-the-usage-of-a-function/2)
 #+END_SRC
 
 pind:/root/.emacs.d/host/ilambda/hs/src/Main.hs
 
-*** For learning
-**** Apostrope
-**** Paracosm
+**** As a learning tool
+***** Apostrope
+***** Paracosm
 
 ** Blockchain
+*** DAO
+*** Currency
+*** NFTs
