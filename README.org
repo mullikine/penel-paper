@@ -1,0 +1,15 @@
+* Pen.el - Prompt Engineering in emacs
+** Prompt Engineering
+
+** Available prompts
+- http://github.com/semiosis/prompts
+
+** Describe some of these prompts
+http://github.com/semiosis/prompts/blob/master/prompts/code-generator-from-description-1.prompt
+$PROMPTS/code-generator-from-description-1.prompt
+
+http://github.com/semiosis/prompts/blob/master/prompts/autofix-code-2.prompt
+$PROMPTS/autofix-code-2.prompt
+
+http://github.com/semiosis/prompts/blob/master/prompts/asktutor-3.prompt
+$PROMPTS/asktutor-3.prompt
