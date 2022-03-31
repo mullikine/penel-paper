@@ -20,4 +20,6 @@ $PROMPTS/asktutor-3.prompt
   (define-key pen-map (kbd "M-SPC e f") 'pf-get-an-example-of-the-usage-of-a-function/2)
 #+END_SRC
 
+pind:/root/.emacs.d/host/ilambda/hs/src/Main.hs
+
 ** Blockchain
