@@ -6,8 +6,14 @@ Anak has been helping me and I'd like to talking about the Pen.el project for yo
 - future blockchain applications
 * Pen.el paper
 ** What are prompts?
+Prompting is querying for generated responses from an AI model.
 ** Pen.el project - Prompt engineering in emacs
 *** What is Pen.el?
+- When a prompt function is run from Pen.el, the user is queried for inputs, the query is sent to the AI and its response is captured and then used
+- You can use Pen.el to:
+  - engineer your own prompt functions
+  - extend Pen.el with prompt functions
+  - as a prompting server to serve other applications
 *** Built-in library of prompt functions 
 - http://github.com/semiosis/prompts
 library
