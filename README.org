@@ -12,6 +12,22 @@ project for you today.
 * Pen.el paper
 ** What are prompts?
 Prompting is querying for generated responses from an AI model.
+** What is Emacs?
+- It's what you're looking at currently on my screen.
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (+ 10 5)
+#+END_SRC
+
+#+RESULTS:
+#+begin_src emacs-lisp
+"15"
+#+end_src
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  (pf-very-witty-pick-up-lines-for-a-topic/1 "Florida")
+#+END_SRC
+
 ** Pen.el project - Prompt engineering in emacs
 *** What is Pen.el?
 - When a prompt function is run from Pen.el, the user is queried for inputs, the query is sent to the AI and its response is captured and then used
