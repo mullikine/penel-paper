@@ -23,4 +23,6 @@ $PROMPTS/asktutor-3.prompt
 
 pind:/root/.emacs.d/host/ilambda/hs/src/Main.hs
 
+*** For learning
+
 ** Blockchain
