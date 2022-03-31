@@ -6,63 +6,74 @@ in New Zealand. I've been working with Anak on
 my project Pen.el for the last year and a half
 and I'd like to talking about the Pen.el
 project for you today.
-- theory
-- practical
-- future blockchain applications
-* Pen.el paper
-** What are prompts?
-Prompting is querying for generated responses from an AI model.
-** What is Emacs?
+
+* What are prompts?
+Prompts in the context of AI are queries to an AI.
+
+#+BEGIN_SRC bash -n :i bash :async :results verbatim code
+  tm-ask-line "What is your name?" | cat
+#+END_SRC
+
+sA prompt is sent to an AI model and the model generates a response stochastically.
+
+* What is Emacs?
 - It's what you're looking at currently on my screen.
+
+A typical emacs lisp function.
 
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (+ 10 5)
 #+END_SRC
 
-#+RESULTS:
-#+begin_src emacs-lisp
-"15"
-#+end_src
+A Pen.el emacs lisp function.
 
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (pf-very-witty-pick-up-lines-for-a-topic/1 "Florida")
 #+END_SRC
 
-** Pen.el project - Prompt engineering in emacs
-*** What is Pen.el?
+* Pen.el project - Prompt engineering in emacs
+** What is Pen.el?
 - When a prompt function is run from Pen.el, the user is queried for inputs, the query is sent to the AI and its response is captured and then used
 - You can use Pen.el to:
   - engineer your own prompt functions
   - extend Pen.el with prompt functions
   - as a prompting server to serve other applications
-*** Built-in library of prompt functions 
-- http://github.com/semiosis/prompts
-library
+** Built-in library of prompt functions 
+http://github.com/semiosis/prompts
+
+e:$PROMPTS
+
+*** =eli5=
+e:$PROMPTS/eli5-explain-like-i-m-five-1.prompt
+
+*** code generator from description
 http://github.com/semiosis/prompts/blob/master/prompts/code-generator-from-description-1.prompt
-$PROMPTS/code-generator-from-description-1.prompt
+e:$PROMPTS/code-generator-from-description-1.prompt
 
+*** autofix code
 http://github.com/semiosis/prompts/blob/master/prompts/autofix-code-2.prompt
-$PROMPTS/autofix-code-2.prompt
+e:$PROMPTS/autofix-code-2.prompt
 
+*** asktutor
 http://github.com/semiosis/prompts/blob/master/prompts/asktutor-3.prompt
-$PROMPTS/asktutor-3.prompt
+e:$PROMPTS/asktutor-3.prompt
 
-*** How to build your own prompt functions
+** How to build your own prompt functions
 
-*** Using prompts
-**** For coding assistance
-***** How to use
+** Using prompts
+*** For coding assistance
+**** How to use
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (define-key pen-map (kbd "M-SPC e f") 'pf-get-an-example-of-the-usage-of-a-function/2)
 #+END_SRC
 
 pind:/root/.emacs.d/host/ilambda/hs/src/Main.hs
 
-**** As a learning tool
-***** Apostrope
-***** Paracosm
+*** As a learning tool
+**** Apostrope
+**** Paracosm
 
-** Blockchain
-*** DAO
-*** Currency
-*** NFTs
+* Blockchain
+** DAO
+** Currency
+** NFTs
