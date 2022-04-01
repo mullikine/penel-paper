@@ -1,5 +1,5 @@
 * Introduction
-Hi there. Anak has asked me to give a
+Hello. Anak has asked me to give a
 presentation for his classmates at FAU. My
 name is Shane. I'm a software engineer working
 in New Zealand. I've been working with Anak on
@@ -45,20 +45,22 @@ model generates a response stochastically.
 
 #+BEGIN_SRC bash -n :i bash :async :results verbatim code :inb prompt
   # This command takes the above prompt and generates a response
-  penf -u pf-generic-completion-50-tokens/1
+  penf --pool -u pf-generic-completion-50-tokens/1 | sed -n 1p
 #+END_SRC
 
 * What is Emacs?
 - It's what you're looking at currently on my screen.
+- An IDE with a built-in programming language called Emacs Lisp.
 
-A typical emacs lisp function.
-
+** A typical emacs lisp function
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (+ 10 5)
 #+END_SRC
 
-A Pen.el emacs lisp function.
-
+** A Pen.el emacs lisp function
+- Pen.el extends emacs with a set of functions
+- Pen.el allows you to extend emacs with functions based on prompts
+   
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (pf-very-witty-pick-up-lines-for-a-topic/1 "Florida")
 #+END_SRC
