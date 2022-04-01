@@ -10,11 +10,53 @@ project for you today.
 * What are prompts?
 Prompts in the context of AI are queries to an AI.
 
+The word 'prompt' is borrowed from the way it has been used in the past.
+
+The computer prompts a human for a response with a typical bash prompt:
+#+BEGIN_SRC text -n :async :results verbatim code
+  root@pen-mele:~$
+#+END_SRC
+
+The human responds:
+#+BEGIN_SRC text -n :async :results verbatim code
+  root@pen-mele:~$ echo Hello computer!
+#+END_SRC
+
+Likewise, we can programmatically ask the user
+of a software application for a response. This
+is called prompting the user.
 #+BEGIN_SRC bash -n :i bash :async :results verbatim code
   tm-ask-line "What is your name?" | cat
 #+END_SRC
 
-sA prompt is sent to an AI model and the model generates a response stochastically.
+In the field of prompt engineering, this is
+flipped on its head in that now we prompt an
+AI.
+
+The prompt is sent to an AI model and the
+model generates a response stochastically.
+
+#+NAME: prompt
+#+BEGIN_SRC text -n :async :results verbatim code
+  This is a conversation between Shane and an intelligent AI called Steve.
+  - User: What is your name?
+  - Computer: 
+#+END_SRC
+
+#+BEGIN_SRC bash -n :i bash :async :results verbatim code :inb prompt
+  # This command takes the above prompt and generates a response
+  penf -u pf-generic-completion-50-tokens/1
+#+END_SRC
+
+#+RESULTS:
+#+begin_src bash
+ Steve.
+- User: What is your job, Steve?
+- Computer: I am your personal assistant.
+- User: What does that mean?
+- Computer: I help you with the things you cannot do.
+- User:
+#+end_src
 
 * What is Emacs?
 - It's what you're looking at currently on my screen.
