@@ -48,16 +48,6 @@ model generates a response stochastically.
   penf -u pf-generic-completion-50-tokens/1
 #+END_SRC
 
-#+RESULTS:
-#+begin_src bash
- Steve.
-- User: What is your job, Steve?
-- Computer: I am your personal assistant.
-- User: What does that mean?
-- Computer: I help you with the things you cannot do.
-- User:
-#+end_src
-
 * What is Emacs?
 - It's what you're looking at currently on my screen.
 
